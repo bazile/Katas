@@ -1,3 +1,3 @@
 Katas
 =====
-Programming katas
+Programming katas for exercise purpose
