@@ -29,6 +29,14 @@ namespace UnitTests
 			Assert.True(ArrayIsSorted.Puzzle(new int[0]));
 			Assert.True(ArrayIsSorted.Puzzle(new int[] {0,0}));
 			//Assert.True(ArrayIsSorted.Puzzle(new int[] {0,0,0}));
+			//{1, 0} 	 false
+			//{1, 0, 0} 	 false 	  	  
+			//{-2136931200, int.MinValue, 515} 	 false 	  	  
+			//{1, 0, 0, 0} 	 false 	  	  
+			//{1082647043, -1869110526, 0} 	 false 	  	  
+			//{256, 219, 705} 	 false 	  	  
+			//{1785481276, -437677763, 1694831873, 1694839802} 	 false 	  	  
+			//{1960969921, -186612128, 1381466382, -1456103424} 	 false 
 		}
     }
 
