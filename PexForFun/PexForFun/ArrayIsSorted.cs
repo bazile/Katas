@@ -7,21 +7,14 @@
     {
 		public static bool Puzzle(int[] a)
 		{
-			if (a == null || a.Length < 3) return true;
+			if (a == null || a.Length < 2) return true;
 
-			int prevSign = (a[0] - a[1]) < 0 ? -1 : 1;
-			for (int i = 2; i < a.Length; i++)
+			for (int i = 1; i < a.Length; i++)
 			{
-				int sign = (a[i - 1] - a[i]) < 0 ? -1 : 1;
-				if (prevSign != sign) return false;
-
-				if (sign == -1 && a[i] < a[i - 1]) return false;
-				if (sign == 1 && a[i] > a[i - 1]) return false;
-
-				prevSign = sign;
+				if(a[i - 1] > a[i]) return false;
 			}
 
-			return false;
+			return true;
 		}
-	}
+    }
 }
