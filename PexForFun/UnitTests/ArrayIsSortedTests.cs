@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
-using PexForFun.Challenges;
 using Xunit;
 using Xunit.Extensions;
 
-namespace UnitTests
+namespace PexForFun.Challenges.UnitTests
 {
-    public class ArrayIsSortedTests
+	public partial class ChallengeTests
     {
-		[Theory]
+		[Theory(Skip="Solved")]
 		[PropertyData("ArrayIsSortedTestData")]
 		public void ArrayIsSortedTheory(bool expected, int[] arr)
 		{

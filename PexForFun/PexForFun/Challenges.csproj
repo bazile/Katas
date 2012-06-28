@@ -7,7 +7,7 @@
     <ProjectGuid>{5A073C78-CA3B-42C0-A711-95CE5190C045}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PexForFun</RootNamespace>
+    <RootNamespace>PexForFun.Challenges</RootNamespace>
     <AssemblyName>PexForFun</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayIsSorted.cs" />
+    <Compile Include="Solved\ChallengeDigits2.cs" />
+    <Compile Include="Solved\ArrayIsSorted.cs" />
+    <Compile Include="ChallengeBits2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
