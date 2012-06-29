@@ -9,7 +9,7 @@ namespace PexForFun.Challenges.UnitTests
 		[PropertyData("ChallengeBits2TestData")]
 		public void ChallengeBits2Theory(byte x, byte expected)
 		{
-			Assert.Equal(expected, ChallengeBits2.Puzzle(x));
+			Assert.Equal<byte>(expected, ChallengeBits2.Puzzle(x));
 		}
 
 		public static IEnumerable<object[]> ChallengeBits2TestData

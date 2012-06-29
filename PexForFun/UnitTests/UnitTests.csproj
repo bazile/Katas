@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayIsSortedTests.cs" />
+    <Compile Include="ChallengeBits1Tests.cs" />
     <Compile Include="ChallengeBits2Tests.cs" />
     <Compile Include="ChallengeDigits2Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

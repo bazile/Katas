@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solved\ChallengeBits1.cs" />
     <Compile Include="Solved\ChallengeDigits2.cs" />
     <Compile Include="Solved\ArrayIsSorted.cs" />
     <Compile Include="ChallengeBits2.cs" />

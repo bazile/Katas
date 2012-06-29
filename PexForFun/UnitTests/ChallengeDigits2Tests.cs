@@ -5,11 +5,11 @@ namespace PexForFun.Challenges.UnitTests
 {
 	public partial class ChallengeTests
 	{
-		[Theory]
+		[Theory(Skip="Solved")]
 		[PropertyData("ChallengeDigits2TestData")]
 		public void ChallengeDigits2Theory(int x, int expected)
 		{
-			Assert.Equal(expected, ChallengeDigits2.Puzzle(x));
+			Assert.Equal<int>(expected, ChallengeDigits2.Puzzle(x));
 		}
 
 		public static IEnumerable<object[]> ChallengeDigits2TestData
