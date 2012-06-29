@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
-using Xunit;
 using Xunit.Extensions;
 
 namespace PexForFun.Challenges.UnitTests
 {
-	public partial class ChallengeTests
+	public partial class ChallengeTests : TestClass
     {
 		[Theory(Skip="Solved")]
 		[PropertyData("ArrayIsSortedTestData")]
