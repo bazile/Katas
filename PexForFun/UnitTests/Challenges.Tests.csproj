@@ -45,10 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayIsSortedTests.cs" />
-    <Compile Include="ChallengeBits1Tests.cs" />
+    <Compile Include="ChallengeCollatzTests.cs" />
+    <Compile Include="Solved\ArrayIsSortedTests.cs" />
+    <Compile Include="Solved\ChallengeBits1Tests.cs" />
     <Compile Include="ChallengeBits2Tests.cs" />
-    <Compile Include="ChallengeDigits2Tests.cs" />
+    <Compile Include="Solved\ChallengeDigits2Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
