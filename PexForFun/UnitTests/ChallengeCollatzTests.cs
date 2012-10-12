@@ -18,10 +18,12 @@ namespace PexForFun.Challenges.Tests
 			{
 				return new[]
 					{
-						new object[] { (byte)0x00, (byte)0x00},
-						new object[] { (byte)0x08, (byte)0x08}, // 0000 1000 -> 0000 1000
-						new object[] { (byte)0x0E, (byte)0x02}, // 0000 1110 -> 0000 0010
-						new object[] { (byte)0x50, (byte)0x10}, // 0101 0000 -> 0001 0000
+						new object[] {  1,  1 },
+						new object[] {  2,  2 },
+						new object[] {  3,  8 },
+						new object[] {  7, 17 },
+						new object[] { 11, 15 },
+						new object[] { 19, 21 },
 					};
 			}
 		}
