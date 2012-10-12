@@ -1,9 +1,7 @@
 ﻿namespace PexForFun.Challenges
 {
-	/// <summary>
-	/// http://www.pexforfun.com/Default.aspx?language=CSharp&sample=ChallengeBits2
-	/// </summary>
-	public static class ChallengeBits2
+	// http://www.pexforfun.com/Default.aspx?language=CSharp&sample=ChallengeBits2
+	static class ChallengeBits2
 	{
 		public static byte Puzzle(byte x)
 		{

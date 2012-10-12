@@ -1,9 +1,7 @@
 ﻿namespace PexForFun.Challenges
 {
-	/// <summary>
-	/// http://www.pexforfun.com/default.aspx?language=CSharp&sample=ChallengeArrayIsSorted
-	/// </summary>
-	public static class ArrayIsSorted
+	// http://www.pexforfun.com/default.aspx?language=CSharp&sample=ChallengeArrayIsSorted
+	static class ArrayIsSorted
     {
 		public static bool Puzzle(int[] a)
 		{

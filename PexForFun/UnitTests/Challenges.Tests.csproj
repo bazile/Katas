@@ -7,8 +7,8 @@
     <ProjectGuid>{3104E2A6-9C5D-40CD-9093-F21F6C1D6761}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PexForFun.Challenges.UnitTests</RootNamespace>
-    <AssemblyName>UnitTests</AssemblyName>
+    <RootNamespace>PexForFun.Challenges.Tests</RootNamespace>
+    <AssemblyName>Challenges.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

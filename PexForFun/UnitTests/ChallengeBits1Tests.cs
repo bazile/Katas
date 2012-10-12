@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Xunit.Extensions;
 
-namespace PexForFun.Challenges.UnitTests
+namespace PexForFun.Challenges.Tests
 {
 	public partial class ChallengeTests
 	{

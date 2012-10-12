@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 [assembly: AssemblyTitle("PexForFun")]
 [assembly: AssemblyDescription("PexForFun katas")]
@@ -10,3 +11,4 @@ using System.Reflection;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 [assembly: CLSCompliant(true)]
+[assembly: InternalsVisibleTo("Challenges.Tests")]
